@@ -74,6 +74,17 @@ function draw(){
     score = 0;
   }   
   
+  swith(score){
+    case 10: player.scale = 0.12;
+    break;
+    case 20: player.scale = 0.14;
+    break;
+    case 30: player.scale = 0.16;
+    break;
+    case 40: player.scale = 0.18;
+    break;
+    default: break;
+  }
   drawSprites();
   
   textSize(15);
